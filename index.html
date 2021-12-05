@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>aula introdução</title>
+</head>
+<body onload="load()"> <!-- crio uma função nome e ()-->
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> <!--(this passa o valor para ele mesmo como parâmetro)quando passar o mouse irá se mexer e trocar vira função-->
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <button type="button" onclick="clicou()">Clique Aqui</button>
+    <select onchange="funcaoChange(this)"> <!-- crio uma função e referencio o que vai fazer no javascript-->
+        <option value="1"> Valor 1</option>
+        <option value="2"> Valor 2</option>
+        <option value="3"> Valor 3</option>
+    </select>
+    
+</body>
+</html>
